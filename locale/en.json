@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Emotion Arc Director",
+    "description": "Text emotion detection → explicit emotion-state file → strategy mapping for the agent, plus a relationship memory ledger. A narrative tool for writers, not a companion."
+  }
+}

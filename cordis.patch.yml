@@ -1,0 +1,18 @@
+- insert:
+    - id: emotion-arc
+      name: 'dph-emotion-arc'
+      config:
+        enabled: true
+        dataDir: !!js dshHomePath('emotion-arc')
+        decayHalfLifeMs: 1800000
+        neutralFloor: 0.15
+        minConfidence: 0.5
+        hysteresis: 0.15
+        injectThreshold: 0.25
+        injectCooldownMs: 5000
+        notifyOnShift: true
+        notifyMode: inject
+        detectorMode: auto
+        llmTimeoutMs: 4000
+        llmMaxTokens: 120
+        historyLimit: 20
